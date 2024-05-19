@@ -16,7 +16,7 @@ function CategoryPage() {
 	return (
 		<MobileBg>
 			<HeaderMenu headerText={'Pick a Category'} />
-			<div className='flex flex-wrap gap-4 justify-evenly'>
+			<div className='flex flex-wrap gap-4 justify-evenly my-auto max-w-4xl'>
 				{categories && categories.map(c => <CategoryButton key={c} text={c} />)}
 			</div>
 		</MobileBg>

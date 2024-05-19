@@ -2,7 +2,7 @@ import React from 'react';
 
 function MobileBg({ children }) {
 	return (
-		<div className='m-0 min-h-screen w-auto bg-mobile-bg bg-auto bg-no-repeat text-white'>
+		<div className='font-sans flex flex-col items-center  bg-mobile-bg sm:bg-tablet-bg lg:bg-desktop-bg m-0 min-h-screen bg-cover bg-center bg-no-repeat text-white'>
 			{children}
 		</div>
 	);

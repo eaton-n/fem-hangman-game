@@ -7,6 +7,8 @@ export default {
 		},
 		backgroundImage: {
 			'mobile-bg': "url('/images/background-mobile.svg')",
+			'tablet-bg': "url('/images/background-tablet.svg')",
+			'desktop-bg': "url('/images/background-desktop.svg')",
 		},
 	},
 
